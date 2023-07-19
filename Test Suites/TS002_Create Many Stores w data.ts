@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS002_Create Many Stores w data</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>cb3bf05c-03d1-4d54-a174-3eff05a793c8</testSuiteGuid>
+   <testCaseLink>
+      <guid>0dce2948-a62b-48d2-a500-f57ed5f0f215</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC001_Login Shopify</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4b8a6fed-c4ac-44e7-975c-68ed6bc7b80b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>76abd341-c34f-4ce9-9661-45818d12d302</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fd7a3da6-3054-4b0a-8bfd-c3edd76df92d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <iterationNameVariable>
+         <defaultValue>''</defaultValue>
+         <description></description>
+         <id>48a9f160-faf8-4aa6-b765-1c447e8e7b9a</id>
+         <masked>false</masked>
+         <name>store_name</name>
+      </iterationNameVariable>
+      <testCaseId>Test Cases/TC002_Create New Store</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>bed70f7c-32af-4417-9006-af61e081f684</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/store_name</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ad809adf-52e0-4c5d-8a42-27f762276f53</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5551cd64-8721-44ec-b48a-ad3dc7b6038c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>bed70f7c-32af-4417-9006-af61e081f684</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>store_name</value>
+         <variableId>48a9f160-faf8-4aa6-b765-1c447e8e7b9a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>770cb5b1-788e-415b-b643-b0b2d6bf8c01</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CommonTestCase/Close Browser</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>

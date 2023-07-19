@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_Create New Store</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>86fd8ad3-52de-4a0a-815d-fabe52edc04f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ad809adf-52e0-4c5d-8a42-27f762276f53</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5551cd64-8721-44ec-b48a-ad3dc7b6038c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>48a9f160-faf8-4aa6-b765-1c447e8e7b9a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'thangle.4295@gmail.com'</defaultValue>
+      <description></description>
+      <id>ad809adf-52e0-4c5d-8a42-27f762276f53</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'RigbBhfdqOBGNlJIWM1ClA=='</defaultValue>
+      <description></description>
+      <id>5551cd64-8721-44ec-b48a-ad3dc7b6038c</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>48a9f160-faf8-4aa6-b765-1c447e8e7b9a</id>
+      <masked>false</masked>
+      <name>store_name</name>
+   </variable>
+</TestCaseEntity>
