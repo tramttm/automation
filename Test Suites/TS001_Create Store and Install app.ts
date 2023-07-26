@@ -55,12 +55,6 @@
          <value></value>
          <variableId>5551cd64-8721-44ec-b48a-ad3dc7b6038c</variableId>
       </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>SCRIPT_VARIABLE</type>
-         <value>null</value>
-         <variableId>48a9f160-faf8-4aa6-b765-1c447e8e7b9a</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>b2120fa2-dac3-4590-8cfe-4fa0c67e5ea0</guid>

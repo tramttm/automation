@@ -43,7 +43,7 @@ WebUI.click(findTestObject('Object Repository/InstallApp/btn_login'))
 
 WebUI.click(findTestObject('Object Repository/InstallApp/btn_add_app'))
 
-//WebUI.click(findTestObject('Object Repository/InstallApp/btn_account'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('Object Repository/InstallApp/btn_account'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Object Repository/InstallApp/btn_install_app'))
 

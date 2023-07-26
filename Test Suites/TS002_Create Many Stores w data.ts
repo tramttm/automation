@@ -64,12 +64,6 @@
          <value></value>
          <variableId>5551cd64-8721-44ec-b48a-ad3dc7b6038c</variableId>
       </variableLink>
-      <variableLink>
-         <testDataLinkId>bed70f7c-32af-4417-9006-af61e081f684</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>store_name</value>
-         <variableId>48a9f160-faf8-4aa6-b765-1c447e8e7b9a</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>770cb5b1-788e-415b-b643-b0b2d6bf8c01</guid>

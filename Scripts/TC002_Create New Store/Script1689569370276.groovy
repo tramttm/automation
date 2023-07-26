@@ -31,7 +31,7 @@ WebUI.navigateToUrl('https://partners.shopify.com/3044452/stores/new?store_type=
 
 WebUI.click(findTestObject('Object Repository/InstallApp/btn_account'), FailureHandling.OPTIONAL)
 
-//String store_name = "Store Auto " + RandStr.randomNumeric(3)
+String store_name = "Store Auto " + RandStr.randomNumeric(3)
 
 WebUI.setText(findTestObject('Object Repository/CreateStoreShopify/txt_store_name'), store_name)
 
